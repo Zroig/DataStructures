@@ -17,7 +17,7 @@ public class EX2 {
             dni = sc.next();
             nom = sc.next();
             cognom = sc.next();
-            Persona persona = new Persona(nom, cognom, llegirDireccio(sc), dni);
+            Persona persona = new Persona(nom, cognom, llegirDireccio(sc));
             persones.put(dni, persona);
             System.out.println("Added person");
         }
@@ -29,7 +29,7 @@ public class EX2 {
             }
 
             if (persones.containsKey(e)) {
-                System.out.println(persones.get(e).getPersona());
+                System.out.println(persones.get(e).getNom()+e+persones.get(e).getDireccio());
             } else {
                 System.out.println("DNI no valid");
             }
