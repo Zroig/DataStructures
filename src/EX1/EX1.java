@@ -18,7 +18,6 @@ public class EX1 {
         String cartell = "";
         int metre = 0;
         int c = 0;
-
         c = sc.nextInt();
 
         for (int i = 0; i < c; i++) {
