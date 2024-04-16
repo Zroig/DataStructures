@@ -28,5 +28,7 @@ public class EX3 {
             int valor = vots.get(nom);
             System.out.println(clau+": "+valor);
         }
+
+        sc.close();
     }
 }
