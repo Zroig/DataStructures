@@ -3,7 +3,7 @@ package EX7;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class EX7PQ {
+public class EX7CUA {
     public static void main(String[] args) {
         PriorityQueue<Pacients> cua = new PriorityQueue<>((a, b) -> Integer.compare(b.getPrioritat(), a.getPrioritat()));
         Scanner sc = new Scanner(System.in);
