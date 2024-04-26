@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class EX7 {
+public class EX7MAPA {
     public static void main(String[] args) {
         HashMap<Integer, String> pacients = new HashMap<>();
         Scanner sc = new Scanner(System.in);

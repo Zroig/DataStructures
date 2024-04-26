@@ -6,6 +6,13 @@
 [1 punts - SET] Volem fer un petit joc on els diferents jugadors han de dir respostes a una pregunta, però no es poden fer repeticions. Fes un programa que llegeixi la resposta per l'input i mostri "MEEEC!" quan hi hagi una
 repetició. El programa s'acaba quan l'usuari escriu END
 [1 punts] Després de molts diumenges acompanyant a la teva avia al bingo de la residència decideixes fer un petit programa que t'ajudi. El Bingo de la residència no es canta línia, només Bingo. L'usuari primer introdueix 10 números, que són els de la targeta. Després introdueix els números que es van cantant. Després que cada número cantat indica quants en queden. Quan s'han cantat tots els números imprimeix BINGO i finalitza el programa
+[1 punts - Queue] Un hospital ens ha demanat que els hi fem un programa per a gestionar la
+cua d'accés a urgències. Cada pacient tindrà un nom i una prioritat de tipus enter (valor més alt
+indica més prioritat). 
+Si la línia comença amb un 1 és que ha entrat un pacient al hospital.
+Si la línia comença amb un 0 és que s’està atenent a un pacient.
+Si la línia comença amb un -1 és que s'acaba el programa
+Imprimeix per pantalla les crides dels diferents pacients
 [1 punts] Degut a un problema en l'assignació de prioritats l'hospital ens demana que modifiquem el programa per a que l'ordre sigui estricte per arribada, sense a tenir en compte la prioritat.
 [1 Punts - Iterator]
     ● Llegeix una llista d'enters per consola (usa IntegerLists.readIntegerList).
